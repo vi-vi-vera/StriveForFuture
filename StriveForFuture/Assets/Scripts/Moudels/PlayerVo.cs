@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PlayerVo//Value object
 {
-    string name; //姓名
-    int money;   //钱
-    int level;   //等级
-    int exp;     //经验值
-    int maxExp;  //最大经验值
-    int strength;//力量
-    int agility; //敏捷
-    int leftDots;//剩余点数
+    string name;        //姓名
+    int money;          //钱
+    int level;          //等级
+    int exp;            //经验值
+    int maxExp;         //最大经验值
+    int strength;       //力量
+    int agility;        //敏捷
+    int maxAgility;     //最大敏捷
+    int leftDots;       //剩余点数
 
 
     public string Name { get => name; }
@@ -21,6 +22,7 @@ public class PlayerVo//Value object
     public int MaxExp { get => maxExp; }
     public int Strength { get => strength; }
     public int Agility { get => agility; }
+    public int MaxAgility { get => maxAgility; }
     public int LeftDots { get => leftDots; }
 
     public PlayerVo()
@@ -31,7 +33,8 @@ public class PlayerVo//Value object
         exp = 0;
         maxExp = 100;
         strength = 15;
-        agility = 25;
+        agility = 20;
+        maxAgility = 40;
         leftDots = 0;
     }
     

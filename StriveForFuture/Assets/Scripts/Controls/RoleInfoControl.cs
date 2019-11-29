@@ -28,7 +28,7 @@ public class RoleInfoControl : MonoBehaviour
         view.Txt_Level.text = "等级：" + player.Level;
         view.Txt_Exp.text = "经验：" + player.Exp + "/" + player.MaxExp;
         view.Txt_Strength.text = "力量：" + player.Strength;
-        view.Txt_Agility.text = "敏捷：" + player.Agility;
+        view.Txt_Agility.text = "敏捷：" + player.Agility + "/" + player.MaxAgility;
         view.Txt_LeftDots.text = "剩余点数：" + player.LeftDots;
     }
 
@@ -40,8 +40,11 @@ public class RoleInfoControl : MonoBehaviour
 
     private void AddAgility()
     {
-        player.AddAgility();
-        UpdateAttribute();
+        if(player.Agility < player.MaxAgility)
+        {
+            player.AddAgility();
+            UpdateAttribute();
+        }
     }
 
     // Update is called once per frame
@@ -54,6 +57,13 @@ public class RoleInfoControl : MonoBehaviour
         }
         //剩余点数 <=0 禁用两个按钮
         view.Btn_AddStrength.interactable = player.LeftDots > 0;
-        view.Btn_AddAgility.interactable = player.LeftDots > 0;
+        if(player.LeftDots <= 0 || player.Agility >= player.MaxAgility)
+        {
+            view.Btn_AddAgility.interactable = false;
+        }
+        else
+        {
+            view.Btn_AddAgility.interactable = true;
+        }
     }
 }
