@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8682082167809949399}
   - component: {fileID: 8682082167809949398}
   - component: {fileID: 554363496}
-  - component: {fileID: 554363495}
   - component: {fileID: 363084466652847902}
   m_Layer: 0
   m_Name: Player
@@ -101,18 +100,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &554363495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8682082167809949397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b7dccdc510251448be8488abee0da5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &363084466652847902
 BoxCollider2D:
   m_ObjectHideFlags: 0
