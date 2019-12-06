@@ -32,7 +32,7 @@ public class PlayerVo//Value object
         level = 1;
         exp = 0;
         maxExp = 100;
-        strength = 15;
+        strength = 1;
         agility = 20;
         maxAgility = 40;
         leftDots = 0;

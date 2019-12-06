@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMoudel
+public class PlayerModel
 {
     //单例模式
-    private static PlayerMoudel _instance = null;
+    private static PlayerModel _instance = null;
 
-    private PlayerMoudel()
+    private PlayerModel()
     {
 
     }
 
-    public static PlayerMoudel Instance
+    public static PlayerModel Instance
     {
         get
         {
             if(_instance == null)
             {
-                _instance = new PlayerMoudel();
+                _instance = new PlayerModel();
             }
             return _instance;
         }

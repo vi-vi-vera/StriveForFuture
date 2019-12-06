@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = PlayerMoudel.Instance.Player;
+        player = PlayerModel.Instance.Player;
         animator = GetComponent<Animator>();
     }
 
@@ -18,7 +18,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
-        
+        //按J键或鼠标点击垃圾桶丢当前选中的垃圾
+        //按K键坐下
     }
 
     private void Move()

@@ -237,8 +237,8 @@ C:\Unity\StriveForFuture\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.x
 C:\Unity\StriveForFuture\Temp\bin\Debug\UnityEngine.VideoModule.xml
 C:\Unity\StriveForFuture\Temp\bin\Debug\UnityEngine.XRModule.xml
 C:\Unity\StriveForFuture\Temp\bin\Debug\nunit.framework.xml
-C:\Unity\StriveForFuture\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Unity\StriveForFuture\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Unity\StriveForFuture\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Unity\StriveForFuture\obj\Debug\Assembly-CSharp.dll
 C:\Unity\StriveForFuture\obj\Debug\Assembly-CSharp.pdb
+C:\Unity\StriveForFuture\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache

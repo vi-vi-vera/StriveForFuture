@@ -11,7 +11,7 @@ public class RoleInfoControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = PlayerMoudel.Instance.Player;
+        player = PlayerModel.Instance.Player;
         view = GetComponent<RoleInfoView>();
 
         view.Btn_Close.onClick.AddListener(() => gameObject.SetActive(false));
