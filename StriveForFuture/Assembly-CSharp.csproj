@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Models\GarbageModel.cs" />
     <Compile Include="Assets\Scripts\Models\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Util\ResourcesManager.cs" />
+    <Compile Include="Assets\Scripts\Util\UIEventListener.cs" />
     <Compile Include="Assets\Scripts\Views\BagView.cs" />
     <Compile Include="Assets\Scripts\Views\GarbageItemView.cs" />
     <Compile Include="Assets\Scripts\Views\LoadingView.cs" />

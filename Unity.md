@@ -9,6 +9,11 @@
 5. 使用锚点时，按住alt键能使posx,posy不变，相对父对象位置改变
 6. 删除快捷键：shift + delete
 7. 在移动场景物体进行拼接的时候，按V键可以自动拼接上
+8. 删除动画状态机的Transaction，只需要选择它点击减号
+
+## 控件冷知识
+
+1. 要使boxCollider2d更加自然（对如椅子、树等物体），设置其Sprite Render控件的Sprite Sort Point为Pivot即可
 
 ## C#语言
 
@@ -19,7 +24,7 @@
 * 唯一性
 * 安全性
 
-~~~c#
+~~~~c#
 public class PlayerModel
 {
     //单例模式的写法
@@ -44,7 +49,7 @@ public class PlayerModel
     //把一个人物的所有属性列举出来
     public PlayerVo player = new PlayerVo();
 }
-~~~
+~~~~
 
 ## 按键
 

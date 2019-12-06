@@ -52,6 +52,7 @@ public class GarbageModel
     }
 
     public event Action<GarbageVo> addGarbage;
+    public event Action<GarbageVo> updateNum;
     public void AddGarbage(GarbageVo garbage)
     {
         for(int i = 0; i < bagList.Count; i++)
@@ -60,7 +61,7 @@ public class GarbageModel
             {
                 bagList[i].Num++;
                 //通知垃圾自己去刷新垃圾数量
-
+                updateNum(bagList[i]);
                 return;
             }
         }

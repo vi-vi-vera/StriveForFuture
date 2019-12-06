@@ -3,6 +3,7 @@ guid: 4071da287c1fa4c48b26c1760b27d65d
 TextureImporter:
   fileIDToRecycleName:
     21300000: apple_peel_0
+    21300002: 1_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -88,10 +89,30 @@ TextureImporter:
       name: apple_peel_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 193
-        height: 226
+        x: 8
+        y: 3
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3e951fd4d11e45be3b394d973f786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3
+        width: 207
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -99,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbc3e951fd4d11e45be3b394d973f786
+      spriteID: 92159a588bdc64244b13b197df2bc696
       vertices: []
       indices: 
       edges: []

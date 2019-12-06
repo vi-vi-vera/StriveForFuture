@@ -12,19 +12,22 @@ public class PlayerController : MonoBehaviour
     {
         player = PlayerModel.Instance.Player;
         animator = GetComponent<Animator>();
+
+        animator.SetBool("isRunning", false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        //移动
         Move();
-        //按J键或鼠标点击垃圾桶丢当前选中的垃圾
-        //按K键坐下
+        //指令解析，按键并做对应动作
+        InstructionParse();
     }
 
     private void Move()
     {
-        //键盘WASD键控制人物移动
+        //键盘控制人物移动
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -43,5 +46,33 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("moveX", moveDir.x);
             animator.SetFloat("moveY", moveDir.y);
         }
+    }
+
+    private void InstructionParse()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            //丢垃圾
+            animator.SetTrigger("Throw");
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            //人物坐下
+            animator.SetTrigger("Sit");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //按空格站起来
+            animator.SetTrigger("Stand");
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            //人物哭泣
+            animator.SetTrigger("Cry");
+        }
+
     }
 }
