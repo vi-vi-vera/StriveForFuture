@@ -13,6 +13,7 @@ public class PlayerVo//Value object
     int agility;        //敏捷
     int maxAgility;     //最大敏捷
     int leftDots;       //剩余点数
+    int tuition;        //学费
 
 
     public string Name { get => name; }
@@ -24,11 +25,12 @@ public class PlayerVo//Value object
     public int Agility { get => agility; }
     public int MaxAgility { get => maxAgility; }
     public int LeftDots { get => leftDots; }
+    public int Tuition { get => tuition; }
 
     public PlayerVo()
     {
         name = "小张";
-        money = 0;
+        money = 100;
         level = 1;
         exp = 0;
         maxExp = 100;
@@ -36,6 +38,7 @@ public class PlayerVo//Value object
         agility = 20;
         maxAgility = 40;
         leftDots = 0;
+        tuition = 7000;
     }
     
     public void LevelUp()
@@ -56,5 +59,17 @@ public class PlayerVo//Value object
     {
         agility++;
         leftDots--;
+    }
+
+    //罚款
+    public void ImposeFine()
+    {
+        money -= 500;
+    }
+
+    //奖赏
+    public void ReWard()
+    {
+        money += 10;
     }
 }

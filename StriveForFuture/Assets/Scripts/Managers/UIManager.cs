@@ -7,15 +7,16 @@ using UnityEngine.UI;
 /// </summary>
 public class UIManager : MonoBehaviour
 {
-    public RoleInfoView roleInfoView;
+    GameObject roleInfoView;
     GameObject bagView;
-    RectTransform canvas;
+    static RectTransform canvas;
 
     // Start is called before the first frame update
     void Start()
     {
         //游戏开始时默认关闭roleInfoView
-        roleInfoView.gameObject.SetActive(false);
+        roleInfoView = GameObject.Find("RoleInfoView");
+        roleInfoView.SetActive(false);
 
         //游戏开始时默认关闭bagView
         bagView = GameObject.Find("BagView");
@@ -24,7 +25,7 @@ public class UIManager : MonoBehaviour
         canvas = transform as RectTransform;
     }
 
-    public RectTransform GlobalCanvas { get => canvas; }
+    public static RectTransform GlobalCanvas { get => canvas; }
 
     // Update is called once per frame
     void Update()

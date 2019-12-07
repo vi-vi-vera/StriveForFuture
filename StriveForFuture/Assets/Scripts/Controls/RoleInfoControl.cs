@@ -9,7 +9,7 @@ public class RoleInfoControl : MonoBehaviour
     PlayerVo player;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         player = PlayerModel.Instance.Player;
         view = GetComponent<RoleInfoView>();
@@ -17,7 +17,7 @@ public class RoleInfoControl : MonoBehaviour
         view.Btn_Close.onClick.AddListener(() => gameObject.SetActive(false));
         view.Btn_AddStrength.onClick.AddListener(AddStrength);
         view.Btn_AddAgility.onClick.AddListener(AddAgility);
-
+        GarbageCanController.updatePlayerInfo += UpdateAttribute;
         UpdateAttribute();
     }
 
@@ -50,11 +50,12 @@ public class RoleInfoControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            player.LevelUp();
-            UpdateAttribute();
-        }
+        //if (Input.GetKeyDown(KeyCode.A))
+        //{
+        //    player.LevelUp();
+        //    UpdateAttribute();
+        //}
+
         //剩余点数 <=0 禁用两个按钮
         view.Btn_AddStrength.interactable = player.LeftDots > 0;
         if(player.LeftDots <= 0 || player.Agility >= player.MaxAgility)

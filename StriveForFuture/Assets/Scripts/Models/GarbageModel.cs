@@ -71,4 +71,9 @@ public class GarbageModel
         //通知界面去刷新
         addGarbage(garbage);
     }
+
+    public void RemoveGarbage(GarbageVo garbage)
+    {
+        bagList.Remove(garbage);
+    }
 }

@@ -4,39 +4,39 @@
 	<Garbage id="2" name="香蕉皮" type="厨余垃圾" maxCount="3" description="吃剩的香蕉皮"/>
 	<Garbage id="3" name="橘子皮" type="厨余垃圾" maxCount="4" description="吃剩的橘子皮"/>
 	<Garbage id="4" name="苹果核" type="厨余垃圾" maxCount="5" description="吃剩的苹果核"/>
-	<Garbage id="5" name="花生壳" type="厨余垃圾" maxCount="5" description="吃剩的花生壳"/>
-	<Garbage id="6" name="剩饭" type="厨余垃圾" maxCount="5" description="吃剩的饭菜"/>
-	<Garbage id="7" name="鸡骨" type="厨余垃圾" maxCount="5" description="吃剩的鸡骨头"/>
-	<Garbage id="8" name="废弃食用油" type="厨余垃圾" maxCount="5" description="厨房废弃的食用油"/>
-	<Garbage id="9" name="落叶" type="厨余垃圾" maxCount="5" description="门口扫来的落叶"/>
+	<Garbage id="5" name="花生壳" type="厨余垃圾" maxCount="7" description="吃剩的花生壳"/>
+	<Garbage id="6" name="剩饭" type="厨余垃圾" maxCount="3" description="吃剩的饭菜"/>
+	<Garbage id="7" name="鸡骨" type="厨余垃圾" maxCount="8" description="吃剩的鸡骨头"/>
+	<Garbage id="8" name="菜叶" type="厨余垃圾" maxCount="10" description="吃剩的菜叶"/>
+	<Garbage id="9" name="落叶" type="厨余垃圾" maxCount="15" description="门口扫来的落叶"/>
 	<Garbage id="10" name="电池" type="有害垃圾" maxCount="5" description="没电了的电池"/>
-	<Garbage id="11" name="灯泡" type="有害垃圾" maxCount="5" description="坏灯泡"/>
-	<Garbage id="12" name="水银温度计" type="有害垃圾" maxCount="5" description="废弃温度计"/>
-	<Garbage id="13" name="药品" type="有害垃圾" maxCount="5" description="过期药品"/>
-	<Garbage id="14" name="化妆品" type="有害垃圾" maxCount="5" description="过期化妆品"/>
-	<Garbage id="15" name="油漆桶" type="有害垃圾" maxCount="5" description="废弃油漆桶"/>
-	<Garbage id="16" name="报纸" type="可回收物" maxCount="5" description="废弃报纸"/>
-	<Garbage id="17" name="期刊" type="可回收物" maxCount="5" description="废弃期刊"/>
-	<Garbage id="18" name="图书" type="可回收物" maxCount="5" description="废弃图书"/>
-	<Garbage id="19" name="包装纸" type="可回收物" maxCount="5" description="废弃包装纸"/>
-	<Garbage id="20" name="矿泉水瓶" type="可回收物" maxCount="5" description="喝剩的矿泉水瓶"/>
-	<Garbage id="21" name="一次性餐盒" type="可回收物" maxCount="5" description="干净的餐盒"/>
-	<Garbage id="22" name="塑料杯" type="可回收物" maxCount="5" description="喝剩的塑料杯"/>
-	<Garbage id="23" name="玻璃瓶" type="可回收物" maxCount="5" description="喝剩的玻璃瓶"/>
-	<Garbage id="24" name="玻璃片" type="可回收物" maxCount="5" description="破碎的玻璃片"/>
-	<Garbage id="25" name="暖瓶" type="可回收物" maxCount="5" description="坏掉的暖瓶"/>
-	<Garbage id="26" name="可乐易拉罐" type="可回收物" maxCount="5" description="喝剩的可乐罐"/>
-	<Garbage id="27" name="午餐肉罐头盒" type="可回收物" maxCount="5" description="做菜剩的午餐肉罐头盒"/>
-	<Garbage id="28" name="桌布" type="可回收物" maxCount="5" description="废弃桌布"/>
-	<Garbage id="29" name="工作服" type="可回收物" maxCount="5" description="废弃工作服"/>
-	<Garbage id="30" name="鞋" type="可回收物" maxCount="5" description="废弃鞋子"/>
-	<Garbage id="31" name="快递包装盒" type="其他垃圾" maxCount="5" description="空快递包装"/>
-	<Garbage id="32" name="纸巾" type="其他垃圾" maxCount="5" description="用过的纸巾"/>
-	<Garbage id="33" name="厕所纸" type="其他垃圾" maxCount="5" description="厕所废纸"/>
+	<Garbage id="11" name="灯泡" type="有害垃圾" maxCount="2" description="坏灯泡"/>
+	<Garbage id="12" name="水银温度计" type="有害垃圾" maxCount="4" description="废弃温度计"/>
+	<Garbage id="13" name="药品" type="有害垃圾" maxCount="10" description="过期药品"/>
+	<Garbage id="14" name="化妆品" type="有害垃圾" maxCount="6" description="过期化妆品"/>
+	<Garbage id="15" name="油漆桶" type="有害垃圾" maxCount="1" description="废弃油漆桶"/>
+	<Garbage id="16" name="报纸" type="可回收物" maxCount="12" description="废弃报纸"/>
+	<Garbage id="17" name="牙膏皮" type="可回收物" maxCount="3" description="用完了的牙膏管"/>
+	<Garbage id="18" name="图书" type="可回收物" maxCount="2" description="废弃图书"/>
+	<Garbage id="19" name="包装纸" type="可回收物" maxCount="13" description="废弃包装纸"/>
+	<Garbage id="20" name="矿泉水瓶" type="可回收物" maxCount="4" description="喝剩的矿泉水瓶"/>
+	<Garbage id="21" name="一次性餐盒" type="可回收物" maxCount="8" description="干净的餐盒"/>
+	<Garbage id="22" name="塑料杯" type="可回收物" maxCount="4" description="喝剩的塑料杯"/>
+	<Garbage id="23" name="玻璃瓶" type="可回收物" maxCount="2" description="喝剩的玻璃瓶"/>
+	<Garbage id="24" name="玻璃片" type="可回收物" maxCount="6" description="破碎的玻璃片"/>
+	<Garbage id="25" name="暖瓶" type="可回收物" maxCount="1" description="坏掉的暖瓶"/>
+	<Garbage id="26" name="可乐易拉罐" type="可回收物" maxCount="7" description="喝剩的可乐罐"/>
+	<Garbage id="27" name="午餐肉罐头盒" type="可回收物" maxCount="6" description="做菜剩的午餐肉罐头盒"/>
+	<Garbage id="28" name="桌布" type="可回收物" maxCount="3" description="废弃桌布"/>
+	<Garbage id="29" name="工作服" type="可回收物" maxCount="2" description="废弃工作服"/>
+	<Garbage id="30" name="鞋" type="可回收物" maxCount="3" description="废弃鞋子"/>
+	<Garbage id="31" name="快递包装盒" type="其他垃圾" maxCount="7" description="空快递包装"/>
+	<Garbage id="32" name="纸巾" type="其他垃圾" maxCount="20" description="用过的纸巾"/>
+	<Garbage id="33" name="烟头" type="其他垃圾" maxCount="22" description="废弃烟头"/>
 	<Garbage id="34" name="烟盒" type="其他垃圾" maxCount="5" description="废弃烟盒"/>
-	<Garbage id="35" name="餐盒" type="其他垃圾" maxCount="5" description="吃剩的餐盒"/>
-	<Garbage id="36" name="食品袋" type="其他垃圾" maxCount="5" description="吃剩的食品包装袋"/>
-	<Garbage id="37" name="餐厨垃圾袋" type="其他垃圾" maxCount="5" description="餐厅和厨房垃圾袋"/>
-	<Garbage id="38" name="镜子" type="其他垃圾" maxCount="5" description="废弃镜子"/>
-	<Garbage id="39" name="大棒骨" type="其他垃圾" maxCount="5" description="吃剩的大棒骨"/>
+	<Garbage id="35" name="餐盒" type="其他垃圾" maxCount="6" description="吃剩的餐盒"/>
+	<Garbage id="36" name="食品袋" type="其他垃圾" maxCount="10" description="吃剩的食品包装袋"/>
+	<Garbage id="37" name="椰子壳" type="其他垃圾" maxCount="3" description="吃完的椰子壳"/>
+	<Garbage id="38" name="镜子" type="其他垃圾" maxCount="4" description="废弃镜子"/>
+	<Garbage id="39" name="大棒骨" type="其他垃圾" maxCount="4" description="吃剩的大棒骨"/>
 </root>

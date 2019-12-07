@@ -31,4 +31,17 @@ public class GarbageItemView : MonoBehaviour
             return img_Icon;
         }
     }
+
+    Button btn_Choose;
+    public Button Btn_Choose
+    {
+        get
+        {
+            if(btn_Choose == null)
+            {
+                btn_Choose = transform.Find("Btn_Choose").GetComponent<Button>();
+            }
+            return btn_Choose;
+        }
+    }
 }

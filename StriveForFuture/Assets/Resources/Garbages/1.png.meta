@@ -2,8 +2,7 @@ fileFormatVersion: 2
 guid: 4071da287c1fa4c48b26c1760b27d65d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: apple_peel_0
-    21300002: 1_0
+    21300000: 1_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -47,7 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 800
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,33 +85,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: apple_peel_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 3
-        width: 220
-        height: 220
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbc3e951fd4d11e45be3b394d973f786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: 1_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 3
-        width: 207
-        height: 225
+        x: 2
+        y: 0
+        width: 226
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +99,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92159a588bdc64244b13b197df2bc696
+      spriteID: 8468753629101be4da859def8203b572
       vertices: []
       indices: 
       edges: []
@@ -128,7 +107,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f5a12ac44308d3143a49d71c886e591c
+    spriteID: 36802164f7329864b9d2a02cb300f9ed
     vertices: []
     indices: 
     edges: []

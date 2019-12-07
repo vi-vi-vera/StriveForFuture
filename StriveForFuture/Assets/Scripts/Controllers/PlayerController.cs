@@ -6,6 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     PlayerVo player;
     Animator animator;
+    GarbageVo choosenGarbage;
+
+    public GarbageVo ChoosenGarbage { get => choosenGarbage; set => choosenGarbage = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -75,4 +78,5 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
 }
