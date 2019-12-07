@@ -13,7 +13,7 @@
 
 ## 控件冷知识
 
-1. 要使boxCollider2d更加自然（对如椅子、树等物体），设置其Sprite Render控件的Sprite Sort Point为Pivot即可
+1. 要使boxCollider2d更加自然（对如椅子、树等物体），先将Environment中的图片设置为single模式，出现pivot（锚点）属性，设置为bottom，最后设置其Sprite Render控件的Sprite Sort Point为Pivot即可，最后别忘记检查一下碰撞盒
 
 ## C#语言
 
